@@ -6,7 +6,7 @@ Ashen Quarryloop is a browser-first Base utility that validates network identity
 
 ## Repository layout
 
-- app.ashen-quarryloop.ts  
+- app/ashen-quarryloop.ts  
   Frontend script rendering wallet connection and read-only Base RPC queries.
 
 - config/base.networks.json  
