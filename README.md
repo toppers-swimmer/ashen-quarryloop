@@ -17,9 +17,8 @@ Ashen Quarryloop is a browser-first Base utility that validates network identity
 
 - contracts/  
   Solidity contracts deployed to Base Sepolia for testnet validation:
-  - your_contract.sol — minimal deployment verification contract  
-  - your_contract.sol — simple stateful interaction contract  
-  - your_contract.sol — lightweight registry contract for read-only queries  
+  - contract.sol — minimal deployment contract that shows the structure of a Solidity contract
+  - arrays.sol — simple stateful interaction contract that defines dynamic or fixed-size arrays
 
 - package.json  
   Dependency manifest referencing Coinbase SDKs and multiple Base + Coinbase repositories.
@@ -72,9 +71,11 @@ Copyright (c) 2025 YOUR_NAME
 
 ## Author
 
-GitHub: https://github.com/your-handle  
-Email: you@example.com  
-Public contact: https://x.com/your-handle  
+GitHub: https://github.com/toppers-swimmer
+
+Email: toppers-swimmer.0k@icloud.com
+
+Public contact: https://x.com/Izarianameow
 
 ---
 
@@ -86,18 +87,18 @@ Network: Base Sepolia
 chainId (decimal): 84532  
 Explorer: https://sepolia.basescan.org  
 
-Contract #1 address:  
-your_address
+Contract contract.sol address:  
+0xdaff92ae7ffd3ec6a4c0056e2854a2fbc8cb6772
 
 Deployment and verification:
-- https://sepolia.basescan.org/address/your_address
-- https://sepolia.basescan.org/your_address/0#code  
+- https://sepolia.basescan.org/address/0xdaff92ae7ffd3ec6a4c0056e2854a2fbc8cb6772
+- https://sepolia.basescan.org/0xdaff92ae7ffd3ec6a4c0056e2854a2fbc8cb6772/0#code  
 
-Contract #2 address:  
-your_address
+Contract arrays.sol address:  
+0xb8883e143396dd6ad3eedb9b0a3b35bb9a7b70c9 
 
 Deployment and verification:
-- https://sepolia.basescan.org/address/your_address
-- https://sepolia.basescan.org/your_address/0#code  
+- https://sepolia.basescan.org/address/0xb8883e143396dd6ad3eedb9b0a3b35bb9a7b70c9 
+- https://sepolia.basescan.org/0xb8883e143396dd6ad3eedb9b0a3b35bb9a7b70c9 /0#code  
 
 These testnet deployments provide a controlled environment for validating Base tooling, account abstraction flows, and read-only onchain interactions prior to Base Mainnet usage.
